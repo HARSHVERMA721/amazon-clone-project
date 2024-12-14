@@ -4,18 +4,137 @@
     border: border-box;
 }
 
+   /* ------------------------------------------------------------------navbar------------------------------------------------------------ */
 .navbar{
-    height: 60px;
+    height: 70px;
     background-color: #0f1111;
     color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .navbar-amazon{
-    height: 60px;
-    width: 130px;
+    height: 68px;
+    width: 180px;
 }
 .navbar-amazon-icon{
     background-image: url(image/Amazon-Symbol_processed.jpg);
     background-size: cover;
     height: 60px;
-    height: 130%;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+
+ /* nav bar address icon */
+.navbar-address{
+    margin-left: 10px;
+}
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+.address-first{
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left: 15px;
+}
+.address-second{
+    color: white;
+    font-size: 1rem;
+    margin-left: 4px;
+}
+
+
+/* navbar-search */
+
+.navbar-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+   background-color: #f3f3f3;
+   border-radius: 4px 0 0 4px;
+   width: 60px;
+   height: 40px;
+   text-align: center;
+   border: none;
+}
+.search-input{
+   border-radius: none;
+   width: 499px;
+   height: 38px;
+   border: none;
+   font-size: 15px;
+}
+.search-icon{
+    background-color: #febd68;
+    width: 60px;
+    height: 40px;
+    border-radius: 0 4px 4px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: black;
+}
+
+/* navbar flag with language */
+.navbar-language{
+    height: 40px;
+    width: 100px;
+    display: flex;
+}
+
+.language-map-icon{
+    height: 40px;
+    width: 40px;
+    background-image:url(image/united-states-of-america.png) ;
+    background-size: cover;
+}
+
+.language-select{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transform: none;
+    font-weight: 600;
+}
+
+/* nav-signin */
+
+.nav-signin{
+    
+}
+.nav-sign-in-select{
+    background-color: transparent;
+    color: white;
+    border: none;
+    box-decoration-break: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    
+}
+
+/* nav-return */
+.nav-return{
+    
+}
+.nav-return-in-select{
+    background-color: transparent;
+    color: white;
+    border: none;
+    box-decoration-break: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    
 }
