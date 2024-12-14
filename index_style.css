@@ -9,3 +9,13 @@
     background-color: #0f1111;
     color:white;
 }
+.navbar-amazon{
+    height: 60px;
+    width: 130px;
+}
+.navbar-amazon-icon{
+    background-image: url(image/Amazon-Symbol_processed.jpg);
+    background-size: cover;
+    height: 60px;
+    height: 130%;
+}
