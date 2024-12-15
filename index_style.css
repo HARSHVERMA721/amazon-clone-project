@@ -357,5 +357,113 @@
     font-size: 1.8rem;
 }
 
+/* ------------------------------------ stating the section before footer -------------------- */
 
+.personalized-bar{
+    height: 292px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+.personalized-bar-section{
+    height: 200px;
+    border: 2px solid #f2f2f2;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personalized-bar-section h1{
+    color:black;
+    padding: 10px;
+    font-size: 2rem;
+
+}
+.personalized-bar-section button{
+    width: 230px;
+    height: 30px;
+    background-image: linear-gradient(180deg, #ffe093, #f0c454);
+    text-decoration: none;
+    border-color: #ff9900;
+    border-radius: 5px;
+    text-shadow: 1px 0px 0 #ffe093;
+    font-weight: bold;
+}
+.personalized-bar-section p{
+     margin: 10px;
+     text-align: center;
+     color: #0f1111;
+}
+
+.personalized-bar-section a{
+   color: #007185;
+}
+
+.personalized-bar-section a:hover{
+   color: #c2060f;
+   text-decoration: underline;
+}
+
+.back-to-top{
+  background-color: #37475A;
+  color: white;
+  text-decoration: none;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    /*------------------------------------------------ second last footerL---------------------- */
+.second-last-footer{
+    height: 700px;
+    background-color: #232F3E;
+}
+
+.second-last-footer-row1{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.second-last-footer-row1 h4{
+    font-size:25px ;
+    padding-top: 20px;
+    padding: 10px;
+
+}
+.second-last-footer-row1 p{
+    font-size: larger;
+    padding: 10px;
+}
+
+.second-last-footer-row1 p:hover{
+    font-size: larger;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.second-last-footer-row2{
+    height: 200px;
+    border-top: 2px solid #37475A;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.second-last-footer-row2-inner-div{
+    display: flex;
+}
+.second-last-footer-row2-inner-div select{
+    background-color: transparent;
+    color: white;
+
+}
+.second-last-footer-row2-inner-div button{
+    background-color: transparent;
+    display: inline;
+    color: white;
+    border:2px solid rgb(118, 118, 118);
+}
 
