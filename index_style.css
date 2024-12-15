@@ -190,6 +190,7 @@
 .panel-second p{
     display: inline;
     margin-left: 20px;
+
 }
 
 .panel-third{
@@ -244,7 +245,8 @@
     margin-right: 1rem;
 }
 .box-content p{
-    color:#007185
+    color:#007185;
+    font-size: 1.3rem;
 }
 .box-content p:hover{
     color: #c2060f;
