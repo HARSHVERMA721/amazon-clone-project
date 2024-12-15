@@ -210,12 +210,12 @@
 .hero-message{
     background-color: white;
     color:black;
-    width: 80%;
+    width: 97%;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: .85rem;
+    font-size: 1rem;
     margin-bottom: 25px;
 }
 
@@ -249,3 +249,63 @@
 .box-content p:hover{
     color: #c2060f;
 }
+
+/* --------------------third section ------------*/
+
+.third-content{
+    background-color: #c2060f;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.third-content-section{
+    background-color: white;
+    height: 500px;
+    width:97% ;
+    
+
+}
+
+.third-content-section-row-first{
+    height: 40px;
+    display: flex;
+    text-align: center;
+     padding: 20px;
+
+}
+.third-content-section-row-first h2{
+    font-size: 2rem;
+}
+
+.third-content-section-row-first p{
+    align-content: center;
+    margin: 0 0 0 20px;
+    color: #007185;
+    font-size: 1.5rem;
+    padding-bottom: 4px;
+}
+.third-content-section-row-first p:hover{
+    color:red;
+    font-size: 1.45rem;
+}
+
+.third-content-picture-section{
+    height: 425px;
+    /* padding: 30px; */
+    overflow: auto;
+    white-space: nowrap;
+}
+.third-content-picture-section div{
+    display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+
