@@ -254,7 +254,7 @@
 
 .third-content{
     background-color: #c2060f;
-    height: 600px;
+    height: 500px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -264,7 +264,7 @@
 
 .third-content-section{
     background-color: white;
-    height: 500px;
+    height: 450px;
     width:97% ;
     
 
@@ -294,18 +294,20 @@
 }
 
 .third-content-picture-section{
-    height: 425px;
-    /* padding: 30px; */
+    height: 370px;
     overflow: auto;
     white-space: nowrap;
+    padding: 0 20px 20px 20px;
 }
 .third-content-picture-section div{
     display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px;
+  padding: 20px;
   text-decoration: none;
 }
+
+/*------------------------------------- fourth section------------------ */
 
 
 
