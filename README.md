@@ -1,15 +1,14 @@
 # Amazon Demo Website 🌟
 
-Welcome to the **Amazon Demo Website** repository! This project is a demonstration of an e-commerce platform inspired by Amazon. It showcases features, design, and functionality for a user-friendly shopping experience.
+Welcome to the **Amazon Demo Website** repository! This project is a demonstration of an e-commerce platform inspired by Amazon. It showcases features, layout, design, and functionality for a user-friendly shopping experience.
 
 ---
 
 ## 🚀 Features
 
 - **User-Friendly Interface**: Clean, modern design for seamless navigation.
-- **Product Listings**: Dynamic product displays with pricing and details.
-- **Shopping Cart**: Add, update, or remove items with ease.
-- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.
+- **Product Listings**: Dynamic product displays with pricing and details
+- **Responsive Design**: Fully optimized for desktop only. 
 
 ---
 
@@ -17,8 +16,6 @@ Welcome to the **Amazon Demo Website** repository! This project is a demonstrati
 
 - **HTML5**: For structure and content.
 - **CSS3**: For styling and layout.
-- **JavaScript**: For interactivity and functionality.
-- **[Optional Backend Tech]**: If applicable, specify backend technology here (e.g., Node.js, PHP).
 
 ---
 
@@ -26,10 +23,12 @@ Welcome to the **Amazon Demo Website** repository! This project is a demonstrati
 
 ```plaintext
 📦 amazon-demo
-├── 📁 assets
+├── 📁 images folder
 │   ├── 📁 images
-│   ├── 📁 css
-│   └── 📁 js
+│   ├── 📁 images
+│   └── 📁 images
 ├── 📄 index.html
+├── 📄 index_style.css
 ├── 📄 README.md
-└── 📄 LICENSE
+
+
