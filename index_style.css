@@ -231,14 +231,14 @@
     background-color:#c2060f
 }
 .box{
-    height: 500px;
+    height: 600px;
     width: 23%;
     background-color: white;
     padding: 20px 0 15px;
     margin-top: 20px;
 }
 .box-img{
-    height: 380px;
+    height: 480px;
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
