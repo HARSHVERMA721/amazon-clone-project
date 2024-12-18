@@ -24,7 +24,6 @@ Welcome to the **Amazon Demo Website** repository! This project is a demonstrati
 ![Screenshot (396)](https://github.com/user-attachments/assets/5284efda-6474-45ff-bd03-f54fb8db6ac1)
 ![Screenshot (397)](https://github.com/user-attachments/assets/07e16efa-5eb1-400c-9d31-f843322d33c9)
 ![Screenshot (398)](https://github.com/user-attachments/assets/ac79af73-3d43-412c-b7af-7a638ab8cd7e)
-![Screenshot (398)](https://github.com/user-attachments/assets/ac79af73-3d43-412c-b7af-7a638ab8cd7e)
 ![Screenshot (399)](https://github.com/user-attachments/assets/8c544c59-f427-4b6d-a825-730a8ed53051)
 ![Screenshot (400)](https://github.com/user-attachments/assets/6924a3b8-2091-4147-9a7c-54a47aa8c675)
 ![Screenshot (401)](https://github.com/user-attachments/assets/08eb11b8-12d7-4a3a-8a2e-79cd9f67a7d6)
