@@ -31,4 +31,9 @@ Welcome to the **Amazon Demo Website** repository! This project is a demonstrati
 ├── 📄 index_style.css
 ├── 📄 README.md
 
+---
+📸 **Preview:**
+
+<img src="https://github.com/HARSHVERMA721/amazon-clone-project/issues/1#issue-2747784755">
+
 
