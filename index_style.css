@@ -532,12 +532,12 @@
 
 /*------------------------------------------ last footer section ---------------------------------------*/
 
-last-footer{
-    height: 400px;
+.last-footer{
+    height: 500px;
     background-color: #131A22;
 }
-last-footer-row1{
-    height: 300px;
+.last-footer-row1{
+    height: 400px;
     background-color: #131A22;
     display: flex;
     justify-content: center;
@@ -548,18 +548,19 @@ last-footer-row1{
     background-color: #131A22;
 }
 .last-footer-row1-inner1{
-   height: 125px;
+   height: 80px;
    background-color:#131A22;
    color: white;
    display: flex;
    align-items:baseline;
    justify-content: space-around;
    padding-top: 10px;
-   padding-left: 140px;
+   padding-left: 100px;
    padding-right: 180px;
+   font-size: small;
 }
 .last-footer-row1-inner2{
-    height: 125px;
+    height: 80px;
     background-color:#131A22;
     color: white;
     display: flex;
@@ -568,21 +569,23 @@ last-footer-row1{
     padding-top: 10px;
     padding-left: 90px;
     padding-right: 160px;
+    font-size: small;
     
  }
  .last-footer-row1-inner3{
-    height: 125px;
+    height: 80px;
     background-color:#131A22;
     color: white;
     display: flex;
     align-items:baseline;
     justify-content: space-evenly;
-    padding-top: 10px;
-    padding-left: 68px;
+    padding-top: 30px;
+    padding-left: 78px;
     padding-right: 190px;
+    font-size: small;
  }
  .last-footer-row1-inner4{
-    height: 125px;
+    height: 80px;
     background-color:#131A22;
     color: white;
     display: flex;
@@ -591,6 +594,7 @@ last-footer-row1{
     padding-top: 10px;
     padding-left: 110px;
     padding-right: 400px;
+    font-size: small;
  }
 .footer ul{
     list-style-type: none;
@@ -654,7 +658,7 @@ last-footer-row1{
     display: flex;
     justify-content: center;
     height: 70px;
-    font-size: large;
+    font-size: small;
 }
 
 
