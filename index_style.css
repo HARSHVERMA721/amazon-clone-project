@@ -6,7 +6,7 @@
 
    /* ------------------------------------------------------------------navbar------------------------------------------------------------ */
 .navbar{
-    height: 70px;
+    height: 50px;
     background-color: #0f1111;
     color:white;
     display: flex;
@@ -18,7 +18,7 @@
 
 
 .navbar-amazon{
-    height: 68px;
+    height: 48px;
     width: 180px;
     
 
@@ -26,8 +26,8 @@
 .navbar-amazon-icon{
     background-image: url(image/Amazon-Symbol_processed.jpg);
     background-size: cover;
-    height: 60px;
-    width: 100%;
+    height: 40px;
+    width: 73%;
 }
 .border{
     border: 2px solid transparent;
@@ -48,11 +48,11 @@
 .address-first{
     color: #cccccc;
     font-size: .85rem;
-    margin-left: 15px;
+    margin-left: 4px;
 }
 .address-second{
     color: white;
-    font-size: 1rem;
+    font-size: .9rem;
     margin-left: 4px;
 }
 
@@ -62,7 +62,7 @@
 .navbar-search{
     display: flex;
     width: 620px;
-    height: 40px;
+    height: 30px;
     border-radius: 4px;
 }
 .navbar-search:hover{
@@ -72,21 +72,21 @@
    background-color: #f3f3f3;
    border-radius: 4px 0 0 4px;
    width: 60px;
-   height: 40px;
+   height: 30px;
    text-align: center;
    border: none;
 }
 .search-input{
    border-radius: none;
    width: 499px;
-   height: 38px;
+   height: 28px;
    border: none;
    font-size: 15px;
 }
 .search-icon{
     background-color: #febd68;
     width: 60px;
-    height: 40px;
+    height: 30px;
     border-radius: 0 4px 4px 0;
     display: flex;
     justify-content: center;
@@ -97,25 +97,25 @@
 
 /* navbar flag with language */
 .navbar-language{
-    height: 60px;
+    height: 30px;
     width: 100px;
     display: flex;
 }
 
 .language-map-icon{
-    height: 40px;
+    height: 30px;
     width: 40px;
     background-image:url("image/united-states-of-america.png") ;
     background-size: cover;
     position: relative;
-    top: 10px;
+    top: -3px;
 }
 
 .language-select{
     border: none;
     background-color: transparent;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     transform: none;
     font-weight: 600;
@@ -129,7 +129,7 @@
     color: white;
     border: none;
     box-decoration-break: none;
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     font-weight: 700;
     
 }
@@ -141,7 +141,7 @@
     color: white;
     border: none;
     box-decoration-break: none;
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     font-weight: 700;
     
 }
@@ -155,25 +155,26 @@
     text-align: center;
 }
 .nav-cart-icon{
-    font-size: 35px;
+    font-size: 30px;
 }
 .nav-cart-text{
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     position: relative;
-    top: 20px;
+    top: 3px;
 
 }
 
 /* ---------------------------------------------------------panel -----------------------------------------*/
 
 .panel{
-    height: 40px;
+    height: 30px;
     display: flex;
     background-color: #222f3d;
     justify-content: space-evenly;
     align-items: center;
     color: white;
+    font-size:small;
 }
 .panel-icon{
     color: white;
@@ -205,7 +206,7 @@
 
 .hero-section{
     background-image: url("image/hero.jpg");
-    height: 450px;
+    height: 350px;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -216,11 +217,11 @@
     background-color: white;
     color:black;
     width: 97%;
-    height: 40px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1rem;
+    font-size: .8rem;
     margin-bottom: 25px;
 }
 
@@ -231,14 +232,14 @@
     background-color:#c2060f
 }
 .box{
-    height: 600px;
+    height: 400px;
     width: 23%;
     background-color: white;
     padding: 20px 0 15px;
     margin-top: 20px;
 }
 .box-img{
-    height: 480px;
+    height: 280px;
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -248,9 +249,11 @@
     margin-left: 1rem;
     margin-right: 1rem;
 }
+.box-content h2{
+    font-size: 1rem;
+}
 .box-content p{
     color:#007185;
-    font-size: 1.3rem;
 }
 .box-content p:hover{
     color: #c2060f;
@@ -260,7 +263,7 @@
 
 .third-content{
     background-color:#c2060f;
-    height: 550px;
+    height: 300px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -270,40 +273,41 @@
 
 .third-content-section{
     background-color: white;
-    height: 450px;
+    height: 270px;
     width:97% ;
     
 
 }
 
 .third-content-section-row-first{
-    height: 40px;
+    height: 30px;
     display: flex;
     text-align: center;
      padding: 20px;
 
 }
 .third-content-section-row-first h2{
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .third-content-section-row-first p{
     align-content: center;
     margin: 0 0 0 20px;
     color: #007185;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     padding-bottom: 4px;
 }
 .third-content-section-row-first p:hover{
     color:red;
-    font-size: 1.45rem;
+    font-size: 0.85rem;
 }
 
 .third-content-picture-section{
-    height: 370px;
+    height: 180px;
     overflow: auto;
+    overflow-y: hidden;
     white-space: nowrap;
-    padding: 0 20px 20px 20px;
+    padding: 0 20px 20px 0;
 }
 .third-content-picture-section div{
     display: inline-block;
@@ -318,17 +322,17 @@
     display: flex;
     justify-content: space-evenly;
     background-color:#c2060f;
-    height:700px
+    height:450px
 }
 .box-fourth{
-    height: 600px;
+    height: 400px;
     width: 23%;
     background-color: white;
     padding: 20px 0 15px;
     margin-top: 20px;
 }
 .box-img-fourth{
-    height: 500px;
+    height: 300px;
 }
 
 .box-content-fourth{
@@ -338,7 +342,10 @@
 .box-content-fourth p{
     color:#007185;
     margin-left: 20px;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
+}
+.box-img-fourth-row1-c1 div{
+    font-size: .8rem;
 }
 .box-content-fourth p:hover{
     color: #c2060f;
@@ -351,29 +358,29 @@
 
 }
 .box-img-fourth-row1-c1-c1{
-   height: 200px;
-   width: 220px;
+   height: 120px;
+   width: 130px;
    background-size: cover;
 }
 .box-content-fourth h2{
     margin-left: 20px;
     margin-bottom: 10px;
-    font-size: 1.8rem;
+    font-size: 1.0rem;
 }
 
 /* ------------------------------------ stating the section before footer -------------------- */
 
 .personalized-bar{
-    height: 292px;
+    height: 202px;
     width: 100%;
     background-color: white;
     text-align: center;
 }
 .personalized-bar-section{
-    height: 200px;
+    height: 140px;
     border: 2px solid #f2f2f2;
-    margin-top: 55px;
-    margin-bottom: 30px;
+    margin-top: 35px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -382,12 +389,12 @@
 .personalized-bar-section h1{
     color:black;
     padding: 10px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
 }
 .personalized-bar-section button{
-    width: 230px;
-    height: 30px;
+    width: 250px;
+    height: 27px;
     background-image: linear-gradient(180deg, #ffe093, #f0c454);
     text-decoration: none;
     border-color: #ff9900;
@@ -396,9 +403,10 @@
     font-weight: bold;
 }
 .personalized-bar-section p{
-     margin: 10px;
+     margin: 8px;
      text-align: center;
      color: #0f1111;
+     font-size: .8rem;
 }
 
 .personalized-bar-section a{
@@ -414,14 +422,15 @@
   background-color: #37475A;
   color: white;
   text-decoration: none;
-  height: 60px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: .7rem;
 }
     /*------------------------------------------------ second last footerL---------------------- */
 .second-last-footer{
-    height: 630px;
+    height: 450px;
     background-color: #232F3E;
 }
 
@@ -433,24 +442,24 @@
 }
 
 .second-last-footer-row1 h4{
-    font-size:25px ;
+    font-size:15px ;
     padding-top: 20px;
     padding: 10px;
 
 }
 .second-last-footer-row1 p{
-    font-size: larger;
+    font-size: small;
     padding: 10px;
 }
 
 .second-last-footer-row1 p:hover{
-    font-size: larger;
+    font-size: small;
     padding: 10px;
     text-decoration: underline;
 }
    /*------------------------------------------------------ footer row 2 -------------------*/
 .second-last-footer-row2{
-    height: 170px;
+    height: 60px;
     border-top: 2px solid #37475A;
     display: flex;
     justify-content:center;
@@ -458,7 +467,7 @@
 }
 .second-last-footer-row2-inner-div{
     display: flex;
-    height:60px;
+    height:50px;
     width: 50%;
     justify-content: center;
     align-items: center;
@@ -466,8 +475,8 @@
 .footer-amazon-logo{
     background-image: url(image/Amazon-Symbol_processed.jpg);
     background-size:cover;
-    height: 40px;
-    width: 125px;
+    height: 20px;
+    width: 60px;
     margin-right: 100px;
 
 }
@@ -475,31 +484,34 @@
     background-color: transparent;
     color: white;
     border:none;
-    height:70px;
+    height:35px;
 }
 .second-last-footer-row2-inner-div button{
     background-color: transparent;
     color: white;
     border:2px solid rgb(118, 118, 118);
     width: 300px;
-    font-size: 1rem;
+    font-size: .8rem;
     border-radius: 5px;
+    height: 40px;
 }
 .second-last-footer-row2-inner-div-div-2{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     width: 500px;
 }
 .earth-icon-footer-div{
     display: flex;
     border: 2px solid rgb(118, 118, 118);
-    height: 70px;
+    height: 35px;
     font-size:1rem;
     margin-right: 10px;
     border-radius: 5px;
 }
 .united-states-footer-logo{
     display: flex;
+    align-items: center;
     width: 200px;
     border:2px solid rgb(118, 118, 118);
     margin-left: 10px;
@@ -507,24 +519,25 @@
     color: white;
     padding-top: 18px;
     padding-left: 30px;
+    height: 20px;
 }
 .united-states-footer-font{
     background-image: url(image/united-states-of-america.png);
     background-size: cover;
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     margin-right: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }
 
 /*------------------------------------------ last footer section ---------------------------------------*/
 
 last-footer{
-    height: 700px;
+    height: 400px;
     background-color: #131A22;
 }
 last-footer-row1{
-    height: 500px;
+    height: 300px;
     background-color: #131A22;
     display: flex;
     justify-content: center;
@@ -582,8 +595,6 @@ last-footer-row1{
 .footer ul{
     list-style-type: none;
     text-align: left;
-    /* padding-left: 0%;     */
-    /* padding-right: 30px; */
     color:rgb(177, 177, 177);
 }
 .footer ul:hover{
@@ -607,7 +618,7 @@ last-footer-row1{
 
 .footer-condition-line p{
     margin-left: 40px;
-    font-size: large;
+    font-size: small;
 }
 .footer-condition-line p:hover{
     text-decoration: underline;
